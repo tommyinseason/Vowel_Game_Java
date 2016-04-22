@@ -7,19 +7,13 @@ import static spark.Spark.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Vowels {
-  public static void main(String[] args) {
+  public class Vowels {
 
 
-}
+    public String newVowel (String userInput) {
+      userInput = userInput.replaceAll("[aAeEiIoOuU]", "-");
+     return userInput;
+        }
 
 
-  public static String replaceVowels (String words) {
-    String finalWord = "";
-    HashMap<String, String> convertVowel = new HashMap<String, String>();
-      convertVowel.put('a', '-');
-      }
-    return finalWord;
-
- }
-}
+    }
