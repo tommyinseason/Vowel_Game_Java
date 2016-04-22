@@ -24,4 +24,10 @@ public class VowelsTest {
     String expected = "-ppl-";
     assertEquals(expected, testVowels.newVowel("apple"));
   }
+  @Test
+  public void replaceVowel_forSentence_Apple_Is_Healthy(){
+    Vowels testVowels = new Vowels();
+    String expected = "_ppl_ is healthy";
+    assertEquals(expected, testVowels.newVowel("Apple is healthy"));
+  }
 }
