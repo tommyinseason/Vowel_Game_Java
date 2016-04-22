@@ -1,0 +1,5 @@
+1. Replace Vowel "a" with a "-"
+1. Replace Vowel "e" with a "-"
+1. Replace Vowel "i" with a "-"
+1. Replace Vowel "o" with a "-"
+1. Replace Vowel "u" with a "-"
