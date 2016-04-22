@@ -18,4 +18,10 @@ public class VowelsTest {
     String expected = "-";
     assertEquals(expected, testVowels.newVowel("e"));
   }
+  @Test
+  public void replaceVowel_forWord_Apple(){
+    Vowels testVowels = new Vowels();
+    String expected = "-pple";
+    assertEquals(expected, testVowels.newVowel("apple"));
+  }
 }
