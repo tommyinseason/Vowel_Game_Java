@@ -10,6 +10,6 @@ public class VowelsTest {
   public void replaceVowel_forLetter_A(){
     Vowels testVowels = new Vowels();
     String expected = "-";
-    assertEquals(expected, testVowels.newVowel("b"));
+    assertEquals(expected, testVowels.newVowel("a"));
   }
 }
