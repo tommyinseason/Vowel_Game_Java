@@ -21,5 +21,12 @@ public class AppTest extends FluentTest {
   public void rootTest() {
     goTo("http://localhost:4567/");
     assertThat(pageSource()).contains("Welcome to a word puzzle challenge.");
+    }
+  @Test
+  public void vowelTest() {
+    goTo("http://localhost:4567");
+    fill("#userInput").with("Apples");
+    submit(".btn");
+    assertThat(pageSource()).contains("-ppl-s");
   }
 }

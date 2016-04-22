@@ -1,3 +1,4 @@
 1. Replace Vowel "a" with a "-"
 2. Replace Vowel "e" with a "-"
 3. Replace Word "Apple" with "-ppl-"
+4. Replace Sentence "Apples are healthy" with "-ppl-s -r- h--lthy"
