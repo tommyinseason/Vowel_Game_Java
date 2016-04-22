@@ -21,7 +21,7 @@ public class VowelsTest {
   @Test
   public void replaceVowel_forWord_Apple(){
     Vowels testVowels = new Vowels();
-    String expected = "-pple";
+    String expected = "-ppl-";
     assertEquals(expected, testVowels.newVowel("apple"));
   }
 }
