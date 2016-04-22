@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="VowelsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-22T21:20:49" hostname="Tom-Joness-MacBook-Pro.local" time="0.012">
+<testsuite name="VowelsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-22T22:45:56" hostname="Tom-Joness-MacBook-Pro.local" time="0.006">
   <properties/>
-  <testcase name="replaceVowel_forLetter_A" classname="VowelsTest" time="0.005"/>
+  <testcase name="replaceVowel_forLetter_A" classname="VowelsTest" time="0.001"/>
   <testcase name="replaceVowel_forLetter_E" classname="VowelsTest" time="0.001"/>
   <testcase name="replaceVowel_forWord_Apple" classname="VowelsTest" time="0.001"/>
-  <testcase name="replaceVowel_forSentence_Apple_Is_Healthy" classname="VowelsTest" time="0.001"/>
+  <testcase name="replaceVowel_forSentence_Apple_Is_Healthy" classname="VowelsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
