@@ -16,6 +16,6 @@ public class VowelsTest {
   public void replaceVowel_forLetter_E(){
     Vowels testVowels = new Vowels();
     String expected = "-";
-    assertEquals(expected, testVowels.newVowel("f"));
+    assertEquals(expected, testVowels.newVowel("e"));
   }
 }
