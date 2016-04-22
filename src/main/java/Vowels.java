@@ -12,8 +12,6 @@ import java.util.Arrays;
 
     public String newVowel (String userInput) {
       userInput = userInput.replaceAll("[aAeEiIoOuU]", "-");
-     return userInput;
-        }
-
-
-    }
+      return userInput;
+  }
+}

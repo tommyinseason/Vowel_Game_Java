@@ -12,4 +12,10 @@ public class VowelsTest {
     String expected = "-";
     assertEquals(expected, testVowels.newVowel("a"));
   }
+  @Test
+  public void replaceVowel_forLetter_E(){
+    Vowels testVowels = new Vowels();
+    String expected = "-";
+    assertEquals(expected, testVowels.newVowel("f"));
+  }
 }
