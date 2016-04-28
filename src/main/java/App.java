@@ -17,13 +17,14 @@ public class App {
 
     get("/results", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
-      model.put("template", "templates/result.vtl");
-      String userInputWord = request.queryParams("userInput");
+      model.put("template", "templates/results.vtl");
+      String word = request.queryParams("userInput");
 
-
-      model.put("result", userInputWord);
+      Vowels myVowels = new Vowels();
+      String finalWord = myVowels.newVowel(word);
+      model.put("finalWord", finalWord);
       return new ModelAndView(model, layout);
-  },  new VelocityTemplateEngine());
-
+    },  new VelocityTemplateEngine());
   }
+
 }

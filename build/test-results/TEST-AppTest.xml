@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2016-04-22T23:29:17" hostname="Tom-Joness-MacBook-Pro.local" time="0.943">
+<testsuite name="AppTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2016-04-27T06:06:27" hostname="Tom-Joness-MBP" time="2.08">
   <properties/>
-  <testcase name="vowelTest" classname="AppTest" time="0.86">
+  <testcase name="vowelTest" classname="AppTest" time="1.993">
     <failure message="java.lang.AssertionError: &#10;Expecting:&#10; &lt;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;html&gt;&#13;&#10;  &lt;head/&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;h2&gt;&#13;&#10;      500 Internal Error&#13;&#10;    &lt;/h2&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;&quot;&gt;&#10;to contain:&#10; &lt;&quot;-ppl-s&quot;&gt; " type="java.lang.AssertionError">java.lang.AssertionError: 
 Expecting:
  &lt;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
@@ -68,19 +68,19 @@ to contain:
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="rootTest" classname="AppTest" time="0.02"/>
+  <testcase name="rootTest" classname="AppTest" time="0.064"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Thread-4] INFO org.eclipse.jetty.util.log - Logging initialized @1529ms
+  <system-err><![CDATA[[Thread-4] INFO org.eclipse.jetty.util.log - Logging initialized @2194ms
 [Thread-4] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
 [Thread-4] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
 [Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
-[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@7bec2233{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
-[Thread-4] INFO org.eclipse.jetty.server.Server - Started @1794ms
-Apr 22, 2016 4:29:17 PM org.apache.velocity log
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@416241f6{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-4] INFO org.eclipse.jetty.server.Server - Started @2648ms
+Apr 26, 2016 11:06:28 PM org.apache.velocity log
 SEVERE: ResourceManager : unable to find resource 'templates/result.vtl' in any resource loader.
-Apr 22, 2016 4:29:18 PM org.apache.velocity log
+Apr 26, 2016 11:06:29 PM org.apache.velocity log
 SEVERE: #parse(): cannot find template 'templates/result.vtl', called at templates/layout.vtl[line 10, column 7]
-[qtp1847472677-17] ERROR spark.webserver.MatcherFilter - 
+[qtp433250511-17] ERROR spark.webserver.MatcherFilter - 
 org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'templates/result.vtl'
 	at org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(ResourceManagerImpl.java:474)
 	at org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(ResourceManagerImpl.java:352)
@@ -112,7 +112,7 @@ org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
 	at java.lang.Thread.run(Thread.java:745)
 [Test worker] INFO spark.webserver.JettySparkServer - >>> Spark shutting down ...
-[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@7bec2233{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@416241f6{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.JettySparkServer - done
 ]]></system-err>
 </testsuite>

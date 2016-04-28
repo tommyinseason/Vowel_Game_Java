@@ -24,6 +24,7 @@ public class AppTest extends FluentTest {
     }
   @Test
   public void vowelTest() {
+    App wordPuzzled = new App();
     goTo("http://localhost:4567");
     fill("#userInput").with("Apples");
     submit(".btn");
